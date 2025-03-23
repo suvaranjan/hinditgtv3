@@ -1,6 +1,6 @@
 import MCQComponent from '@/components/MCQComponent'
 import MCQSelectComp from '@/components/MCQSelectComp'
-import syllabusData from '@/data/syllabus.json' assert { type: 'json' }
+import syllabusData from '@/data/syllabus.json'
 
 export default function Page({ searchParams }: { searchParams: { sub?: string; topic?: string } }) {
   const { sub, topic: topicName } = searchParams
