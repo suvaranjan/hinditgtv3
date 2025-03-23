@@ -1,4 +1,4 @@
-import syllabusData from '@/data/syllabus.json' assert { type: 'json' }
+import syllabusData from '@/data/syllabus.json'
 import { Question } from 'types/test'
 
 export function getSubjects() {

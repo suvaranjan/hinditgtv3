@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import type { TestConfig, Question, UserAnswer } from '../../types/test'
 import { formatTime } from '../../lib/test-utils'
-// import { Button } from '@/components/ui/button'
 
 interface TestPageProps {
   testConfig: TestConfig
